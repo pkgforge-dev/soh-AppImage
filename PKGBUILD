@@ -53,8 +53,8 @@ build() {
     -GNinja \
     -DCMAKE_BUILD_TYPE=$BUILD_TYPE \
     -DNON_PORTABLE=On \
-    #-DCMAKE_INSTALL_PREFIX=$SHIP_PREFIX \
     -DBUILD_REMOTE_CONTROL=1
+    #-DCMAKE_INSTALL_PREFIX=$SHIP_PREFIX \
 
   cmake --build build --target ZAPD --config $BUILD_TYPE $NINJAFLAGS
   cmake --build build --target GenerateSohOtr $NINJAFLAGS
