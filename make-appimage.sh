@@ -14,9 +14,9 @@ export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/soh /usr/bin/soh-otr-exporter
-mv /opt/soh/soh.o2r ./AppDir/shared/bin
-mv /opt/soh/gamecontrollerdb.txt ./AppDir/shared/bin
-echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/shared/bin' >> ./AppDir/.env
+mv /opt/soh/soh.o2r ./AppDir/bin
+mv /opt/soh/gamecontrollerdb.txt ./AppDir/bin
+echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
