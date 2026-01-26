@@ -69,9 +69,7 @@ package_soh() {
 
   install -dm755 "${pkgdir}/usr/bin/"
   ln -s "${SHIP_PREFIX}/soh.elf" "${pkgdir}/usr/bin/soh"
-  #install -Dm644 "${srcdir}/${_reponame}-${pkgver}/soh.o2r" "${pkgdir}/usr/bin/soh.o2r"
   install -Dm644 "${srcdir}/${_reponame}-${pkgver}/build/soh/soh.o2r" "${pkgdir}/usr/bin/soh.o2r"
-  #mv "${pkgdir}/soh.o2r" "${SHIP_PREFIX}/soh.o2r"
   install -Dm644 "${srcdir}/soh.desktop" -t "${pkgdir}/usr/share/applications"
   install -Dm644 soh/macosx/sohIcon.png "${pkgdir}/usr/share/pixmaps/soh.png"
 
