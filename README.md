@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/soh-AppImage)](https://github.com/pkgforge-dev/soh-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/HarbourMasters/Shipwright/raw/develop/docs/shiptitle.darkmode.png" width="1024" />
+  <img src="https://github.com/HarbourMasters/Shipwright/raw/develop/docs/shiptitle.darkmode.png" width="512" />
 </p>
 
 
