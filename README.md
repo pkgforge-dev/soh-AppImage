@@ -2,9 +2,9 @@
 
 # soh-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/soh-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/soh-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/soh-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/soh-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/soh-AppImage)](https://github.com/pkgforge-dev/soh-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/soh-AppImage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/soh-AppImage-Enhanced/releases/latest)
+[![CI Build Status](https://github.com//pkgforge-dev/soh-AppImage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/soh-AppImage-Enhanced/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/soh-AppImage-Enhanced)](https://github.com/pkgforge-dev/soh-AppImage-Enhanced/releases/latest)
 
 <p align="center">
   <img src="https://github.com/HarbourMasters/Shipwright/raw/develop/docs/shiptitle.darkmode.png" width="512" />
@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/soh-AppImage/releases/latest) | [Click here](https://github.com/HarbourMasters/Shipwright) |
+| [Click here](https://github.com/pkgforge-dev/soh-AppImage-Enhanced/releases/latest) | [Click here](https://github.com/HarbourMasters/Shipwright) |
 
 </div>
 
