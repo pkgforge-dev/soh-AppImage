@@ -46,7 +46,6 @@ cmake . \
     -GNinja \
     -DCMAKE_BUILD_TYPE=Release \
     -DNON_PORTABLE=On \
-    -DENABLE_OPENSSL=OFF \
     -DBUILD_REMOTE_CONTROL=1
 cmake --build build --target ZAPD --config Release
 cmake --build build --target GenerateSohOtr
