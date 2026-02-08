@@ -55,4 +55,5 @@ cmake --build build --target soh --config Release
 
 mv -v build/soh/soh.elf ../AppDir/bin/soh
 mv -v build/soh/soh.o2r ../AppDir/bin
+wget -O ../AppDir/bin/gamecontrollerdb.txt https://raw.githubusercontent.com/mdqinc/SDL_GameControllerDB/master/gamecontrollerdb.txt
 cp -rv soh/macosx/sohIcon.png /usr/share/pixmaps/soh.png
