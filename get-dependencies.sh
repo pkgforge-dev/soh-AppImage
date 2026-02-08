@@ -16,6 +16,7 @@ pacman -Syu --noconfirm \
     lsb-release   \
     ninja         \
     nlohmann-json \
+	openssl-static \
     opusfile      \
     sdl2          \
     sdl2_net      \
@@ -35,17 +36,8 @@ make-aur-package zenity-rs-bin
 echo "Making stable build of Shipwright..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/HarbourMasters/Shipwright"
-GRON="https://raw.githubusercontent.com/xonixx/gron.awk/refs/heads/main/gron.awk"
-
-#VERSION="$(git ls-remote --tags --sort="v:refname" "$REPO" | tail -n1 | sed 's/.*\///; s/\^{}//')"
-#git clone --branch "$VERSION" --single-branch --recursive --depth 1 "$REPO" ./Shipwright
-wget "$GRON" -O ./gron.awk
-chmod +x ./gron.awk
-VERSION=$(wget https://api.github.com/repos/HarbourMasters/Shipwright/tags -O - | \
-	./gron.awk | grep -v "nJoy" | awk -F'=|"' '/name/ {print $3}' | \
-	sort -V -r | head -1)
-git clone --branch "$VERSION" --single-branch "$REPO" ./Shipwright
-
+VERSION="$(git ls-remote --tags --sort="v:refname" "$REPO" | tail -n1 | sed 's/.*\///; s/\^{}//')"
+git clone --branch "$VERSION" --single-branch --recursive --depth 1 "$REPO" ./Shipwright
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
