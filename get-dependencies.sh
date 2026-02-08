@@ -20,16 +20,15 @@ pacman -Syu --noconfirm \
     sdl2          \
     sdl2_net      \
     spdlog        \
-    tinyxml2      \
-    valijson      \
-    websocketpp
+    tinyxml2
+    #valijson      \
+    #websocketpp
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
 # Comment this out if you need an AUR package
-make-aur-package openssl-1.1
 make-aur-package zenity-rs-bin
 
 # If the application needs to be manually built that has to be done down here
@@ -47,6 +46,7 @@ cmake . \
     -GNinja \
     -DCMAKE_BUILD_TYPE=Release \
     -DNON_PORTABLE=On \
+    -DENABLE_OPENSSL=OFF \
     -DBUILD_REMOTE_CONTROL=1
 cmake --build build --target ZAPD --config Release
 cmake --build build --target GenerateSohOtr
