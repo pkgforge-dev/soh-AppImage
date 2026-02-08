@@ -16,7 +16,7 @@ pacman -Syu --noconfirm \
     lsb-release   \
     ninja         \
     nlohmann-json \
-    openssl       \
+    openssl-1.1   \
     opusfile      \
     sdl2          \
     sdl2_net      \
