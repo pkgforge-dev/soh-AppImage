@@ -17,7 +17,7 @@
 
 </div>
 
-### ⚠️ Need to generate `oot.o2r` and/or `oot-mq.o2r` using official [AppImage](https://github.com/HarbourMasters/Shipwright/releases/latest) and place in ~/.local/share/soh/ ⚠️
+### ⚠️ Need to generate `oot.o2r` and/or `oot-mq.o2r` using official [AppImage](https://github.com/HarbourMasters/Shipwright/releases/latest) and place in `~/.local/share/soh/` ⚠️
 
 ---
 
